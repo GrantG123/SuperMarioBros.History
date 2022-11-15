@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: b92fa1a837ab1714197edaffd332a236
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5130088652584624190
+    second: big mario sprite sheet_0
+  - first:
+      213: -2064133168181153527
+    second: big mario sprite sheet_1
+  - first:
+      213: 574111937081305549
+    second: big mario sprite sheet_2
+  - first:
+      213: -4335433592811005965
+    second: big mario sprite sheet_3
+  - first:
+      213: -7742321121791099902
+    second: big mario sprite sheet_4
+  - first:
+      213: -6270682124798169967
+    second: big mario sprite sheet_9
+  - first:
+      213: -2595030930450053022
+    second: big mario sprite sheet_14
+  - first:
+      213: -3943492049965730628
+    second: big mario sprite sheet_22
+  - first:
+      213: -2060447351351422344
+    second: big mario sprite sheet_26
+  - first:
+      213: 7484476506788559011
+    second: big mario sprite sheet_31
+  - first:
+      213: 7344168000580732390
+    second: big mario sprite sheet_53
+  - first:
+      213: -66273439431188219
+    second: big mario sprite sheet_55
+  - first:
+      213: -2659814312624764413
+    second: big mario sprite sheet_78
+  - first:
+      213: 9169027284601399985
+    second: big mario sprite sheet_79
+  - first:
+      213: -6179314621291787571
+    second: big mario sprite sheet_80
+  - first:
+      213: 6569438999374732346
+    second: big mario sprite sheet_81
+  - first:
+      213: 4163087961944986165
+    second: big mario sprite sheet_82
+  - first:
+      213: 1900688836554693756
+    second: big mario sprite sheet_85
+  - first:
+      213: -4513378843039386000
+    second: big mario sprite sheet_95
+  - first:
+      213: -8797486469298662978
+    second: big mario sprite sheet_155
+  - first:
+      213: -3495697358683717283
+    second: big mario sprite sheet_156
+  - first:
+      213: -7747152295096930251
+    second: big mario sprite sheet_160
+  - first:
+      213: 2783025334419737896
+    second: big mario sprite sheet_173
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: big mario sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1104
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a19bf27cb13740800000000000000
+      internalID: 5130088652584624190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1104
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901f57dd1d9ba53e0800000000000000
+      internalID: -2064133168181153527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1104
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9ea07d3c7a7f700800000000000000
+      internalID: 574111937081305549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1104
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f754311e1275d3c0800000000000000
+      internalID: -4335433592811005965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1104
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c33a6d5ffbd8490800000000000000
+      internalID: -7742321121791099902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1092
+        width: 281
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c630cb4df0af8a0800000000000000
+      internalID: -6270682124798169967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1111
+        width: 265
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2688f592e199cfbd0800000000000000
+      internalID: -2595030930450053022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 1114
+        width: 261
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb43733cfd6e549c0800000000000000
+      internalID: -3943492049965730628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 1124
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872dd48fc02d763e0800000000000000
+      internalID: -2060447351351422344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1110
+        width: 149
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a873ec7ab33ed760800000000000000
+      internalID: 7484476506788559011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 1054
+        width: 64
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c76da2e9bbe560800000000000000
+      internalID: 7344168000580732390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 1029
+        width: 71
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50129a078ac841ff0800000000000000
+      internalID: -66273439431188219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_78
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 617
+        width: 252
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a408799f0761bd0800000000000000
+      internalID: -2659814312624764413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_79
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 627
+        width: 252
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bae78a5cbdee3f70800000000000000
+      internalID: 9169027284601399985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_80
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 627
+        width: 254
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8682671aae3aa0800000000000000
+      internalID: -6179314621291787571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_81
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 627
+        width: 252
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c145ba6f55b2b50800000000000000
+      internalID: 6569438999374732346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 627
+        width: 252
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5329f64c17246c930800000000000000
+      internalID: 4163087961944986165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 626
+        width: 272
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c94633d6a906a10800000000000000
+      internalID: 1900688836554693756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_95
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 640
+        width: 243
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076bfdbead14d51c0800000000000000
+      internalID: -4513378843039386000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_155
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 132
+        width: 269
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1d521daac09e580800000000000000
+      internalID: -8797486469298662978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_156
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 132
+        width: 268
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51c265f5c9cc7fc0800000000000000
+      internalID: -3495697358683717283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_160
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 124
+        width: 276
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53035e5a8069c7490800000000000000
+      internalID: -7747152295096930251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big mario sprite sheet_173
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 137
+        width: 256
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d400bebca4f9620800000000000000
+      internalID: 2783025334419737896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
