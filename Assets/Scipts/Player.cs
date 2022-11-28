@@ -3,22 +3,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-<<<<<<< HEAD
-    public Animator animator;
-
-=======
     [SerializeField]private LayerMask groundLayer;
     [SerializeField]private LayerMask wallLayer;
->>>>>>> ca17f632e1728cbe3554095929c3cc026f5450b1
     private Rigidbody2D body;
     [SerializeField]private float speed;
     private BoxCollider2D  boxCollider;
-    private Animator anim;
+    public Animator animator;
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
 
     }
@@ -30,7 +25,7 @@ public class Player : MonoBehaviour
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
         //run animation
-        animator.SetFloat("Aspeed", Mathf.Abs(speed));
+        animator.SetFloat("Aspeed", Mathf.Abs(horizontalInput));
 
         //flips mario when he changes direction
         if(horizontalInput > 0.01f)
@@ -38,18 +33,10 @@ public class Player : MonoBehaviour
         else if(horizontalInput < -0.01f)
             transform.localScale = new Vector3(-4, 4, 4);
 
-<<<<<<< HEAD
-        if (Input.GetKey(KeyCode.Space))
-            body.velocity = new Vector2(body.velocity.x, speed);
-
-      
-
-=======
         if (Input.GetKey(KeyCode.Space) && isGrounded())
             Jump();
 
-        anim.SetBool("run", horizontalInput != 0);
->>>>>>> ca17f632e1728cbe3554095929c3cc026f5450b1
+        
     }
 
     private void Jump()

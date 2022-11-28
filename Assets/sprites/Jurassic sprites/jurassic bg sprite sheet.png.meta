@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: a9057078a329dcc419639c1173c4ce74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6501715118735181688
+    second: jurassic bg sprite sheet_0
+  - first:
+      213: 6188641992928130765
+    second: jurassic bg sprite sheet_1
+  - first:
+      213: 4833624780528213113
+    second: jurassic bg sprite sheet_2
+  - first:
+      213: -44645182242326731
+    second: jurassic bg sprite sheet_3
+  - first:
+      213: 6589751482412078324
+    second: jurassic bg sprite sheet_4
+  - first:
+      213: -5802106386309161633
+    second: jurassic bg sprite sheet_5
+  - first:
+      213: -4691616940759813337
+    second: jurassic bg sprite sheet_6
+  - first:
+      213: -3607685196141522770
+    second: jurassic bg sprite sheet_7
+  - first:
+      213: -6546294306566522136
+    second: jurassic bg sprite sheet_8
+  - first:
+      213: -8039930958260135960
+    second: jurassic bg sprite sheet_9
+  - first:
+      213: -8769580575874426658
+    second: jurassic bg sprite sheet_10
+  - first:
+      213: -6129406396893886802
+    second: jurassic bg sprite sheet_11
+  - first:
+      213: -6755615712757862018
+    second: jurassic bg sprite sheet_12
+  - first:
+      213: 5657824639166009379
+    second: jurassic bg sprite sheet_13
+  - first:
+      213: -6716389602668359859
+    second: jurassic bg sprite sheet_14
+  - first:
+      213: -723736392702583
+    second: jurassic bg sprite sheet_15
+  - first:
+      213: -6667189385058903702
+    second: jurassic bg sprite sheet_16
+  - first:
+      213: 653889271063533742
+    second: jurassic bg sprite sheet_17
+  - first:
+      213: 348303995858541093
+    second: jurassic bg sprite sheet_18
+  - first:
+      213: 7324616325691747191
+    second: jurassic bg sprite sheet_19
+  - first:
+      213: 2982781055279710368
+    second: jurassic bg sprite sheet_20
+  - first:
+      213: -7333833487223840840
+    second: jurassic bg sprite sheet_21
+  - first:
+      213: 5011252837858694796
+    second: jurassic bg sprite sheet_22
+  - first:
+      213: -6137179710476070567
+    second: jurassic bg sprite sheet_23
+  - first:
+      213: -3426245791106956483
+    second: jurassic bg sprite sheet_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 28
+        width: 416
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888b00d0c8445c5a0800000000000000
+      internalID: -6501715118735181688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 193
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6fb8e8a1972e550800000000000000
+      internalID: 6188641992928130765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 193
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cd8e4d02c741340800000000000000
+      internalID: 4833624780528213113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 193
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537738b7173616ff0800000000000000
+      internalID: -44645182242326731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 223
+        width: 416
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4964b2f00837b50800000000000000
+      internalID: 6589751482412078324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 156
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d54078bf6ca7fa0800000000000000
+      internalID: -5802106386309161633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 157
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7237ec7ef3704eeb0800000000000000
+      internalID: -4691616940759813337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 165
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea09c8ead6deeedc0800000000000000
+      internalID: -3607685196141522770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 165
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eab0fd0304e625a0800000000000000
+      internalID: -6546294306566522136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 165
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e71d3e046d6c6090800000000000000
+      internalID: -8039930958260135960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 161
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8d6d1fde03c4680800000000000000
+      internalID: -8769580575874426658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 157
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea602256b59ffeaa0800000000000000
+      internalID: -6129406396893886802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 161
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7135025d4b3f32a0800000000000000
+      internalID: -6755615712757862018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 157
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32051fa6881a48e40800000000000000
+      internalID: 5657824639166009379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 135
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f43d7cd379ac2a0800000000000000
+      internalID: -6716389602668359859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 136
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e66df3cd6dfff0800000000000000
+      internalID: -723736392702583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 142
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a691f4d14926973a0800000000000000
+      internalID: -6667189385058903702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 142
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea85e2cd3d4131900800000000000000
+      internalID: 653889271063533742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 142
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a5ffa83ac65d400800000000000000
+      internalID: 348303995858541093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 135
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b22e0adb346a560800000000000000
+      internalID: 7324616325691747191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 132
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a046baf097f46920800000000000000
+      internalID: 2982781055279710368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 134
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf9828bc4df83a90800000000000000
+      internalID: -7333833487223840840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 129
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c865c30c7eb8b8540800000000000000
+      internalID: 5011252837858694796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 58
+        width: 101
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951d65ac19b54daa0800000000000000
+      internalID: -6137179710476070567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurassic bg sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 32
+        width: 416
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3384e32b978370d0800000000000000
+      internalID: -3426245791106956483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 94566e6c72a347f419c610cc4fad8214
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
