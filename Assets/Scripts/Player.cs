@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField]private LayerMask groundLayer;
-    [SerializeField]private LayerMask wallLayer;
+    public Animator animator;
+
     private Rigidbody2D body;
     [SerializeField]private float speed;
     [SerializeField]private float jumpPower;
@@ -25,15 +25,26 @@ public class Player : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
+        //run animation
+        animator.SetFloat("Aspeed", Mathf.Abs(speed));
+
         //flips mario when he changes direction
         if(horizontalInput > 0.01f)
             transform.localScale = new Vector3(4, 4, 4);
         else if(horizontalInput < -0.01f)
             transform.localScale = new Vector3(-4, 4, 4);
 
+<<<<<<< HEAD
+        if (Input.GetKey(KeyCode.Space))
+            body.velocity = new Vector2(body.velocity.x, speed);
+
+      
+
+=======
         if (Input.GetKey(KeyCode.Space) && isGrounded())
             Jump();
 
+<<<<<<< HEAD:Assets/Scripts/Player.cs
         //anim.SetBool("run", horizontalInput != 0); 
         //anim.SetBool("grounded", isGrounded());
 
@@ -55,6 +66,10 @@ public class Player : MonoBehaviour
     }
     else
         wallJumpCooldown = Time.deltaTime;
+=======
+        anim.SetBool("run", horizontalInput != 0);
+>>>>>>> ca17f632e1728cbe3554095929c3cc026f5450b1
+>>>>>>> d64a8da5b43f25fcced08e0be3ff1b3fe0970e17:Assets/Scipts/Player.cs
     }
 
     //derpy meme face
