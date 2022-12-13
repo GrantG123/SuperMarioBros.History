@@ -3,14 +3,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField]private LayerMask groundLayer;
-    [SerializeField]private LayerMask wallLayer;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask wallLayer;
     private Rigidbody2D body;
     [SerializeField]private float speed;
     [SerializeField]private float jumpPower;
     private BoxCollider2D  boxCollider;
     public Animator animator;
     private float wallJumpCooldown;
+    private float horizontalInput;
 
     private void Awake()
     {
@@ -22,7 +23,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         //basic movement
-        float horizontalInput = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
         //run animation
@@ -75,11 +76,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-    }
-
     private bool isGrounded()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
@@ -91,4 +87,9 @@ public class Player : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null;
     }  
+
+    public bool canAttack()
+    {
+        return horizontalInput == 0 && isGrounded() && !onWall();
+    }
 }
