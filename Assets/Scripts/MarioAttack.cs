@@ -19,7 +19,7 @@ public class MarioAttack : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.canAttack())
+        if(Input.GetKey(KeyCode.S) && cooldownTimer > attackCooldown && playerMovement.canAttack())
             Attack();
 
         cooldownTimer += Time.deltaTime;
@@ -27,7 +27,7 @@ public class MarioAttack : MonoBehaviour
 
     private void Attack()
     {
-        anim.SetTrigger("attack");
+        //anim.SetTrigger("attack");
         cooldownTimer = 0;
 
         fireballs[0].transform.position = firePoint.position;
