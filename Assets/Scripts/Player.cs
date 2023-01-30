@@ -90,6 +90,6 @@ public class Player : MonoBehaviour
 
     public bool canAttack()
     {
-        return horizontalInput == 0 && !onWall();
+        return horizontalInput <= 100 && !onWall();
     }
 }
