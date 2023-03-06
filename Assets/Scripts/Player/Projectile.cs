@@ -33,6 +33,8 @@ public class Projectile : MonoBehaviour
     {
         hit = true;
         boxCollider.enabled = false;
+        gameObject.SetActive(false);
+
     }
 
     public void SetDirection(float _direction)
