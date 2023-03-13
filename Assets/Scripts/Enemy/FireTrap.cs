@@ -6,7 +6,7 @@ public class FireTrap : MonoBehaviour
 {
    [SerializeField] private float damage;
    [Header("Firetrap Timers")]
-   [SerializeField] private float activationDelay;
+   //[SerializeField] private float activationDelay;
    [SerializeField] private float activeTime;
    private Animator anim;
    private SpriteRenderer spriteRend;
@@ -26,7 +26,7 @@ public class FireTrap : MonoBehaviour
         {
             if(!triggered)
             {
-
+               StartCoroutine(ActivateFiretrap());
             }
             if(active)
                 collision.GetComponent<Health>().TakeDamage(damage);
@@ -36,9 +36,9 @@ public class FireTrap : MonoBehaviour
    private IEnumerator ActivateFiretrap()
    {
     triggered = true;
-    spriteRend.color = Color.red;
-    yield return new WaitForSeconds(activationDelay);
-    spriteRend.color = Color.white;
+    //spriteRend.color = Color.red;
+    //yield return new WaitForSeconds(activationDelay);
+    //spriteRend.color = Color.white;
     active = true;
     anim.SetBool("activated", true);
     yield return new WaitForSeconds(activeTime);
